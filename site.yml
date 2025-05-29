@@ -1,0 +1,5 @@
+- name: Configure LAMP Stack Locally
+  hosts: webserver
+  become: yes
+  roles:
+    - common
